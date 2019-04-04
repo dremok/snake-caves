@@ -1,0 +1,3 @@
+model_module = "examples.ff_model"
+model_class = "FeedForwardModel"
+model_state_file = "ff.tar"
