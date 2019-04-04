@@ -14,7 +14,7 @@ class BaseModel(ABC):
         pass
 
     @abstractmethod
-    def predict(self):
+    def predict(self, input_data):
         pass
 
     def load_state(self, model_state):
